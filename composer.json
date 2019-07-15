@@ -1,0 +1,37 @@
+{
+    "name": "weblink-hr/tokenspay",
+    "type": "library",
+    "description": "tokenspay gateway for Weblink payment processing library",
+    "keywords": [
+        "tokenspay",
+        "merchant",
+        "pay",
+        "payment",
+        "purchase"
+    ],
+    "homepage": "https://github.com/weblink-hr/tokenspay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WebLink",
+            "email": "info@weblink.hr"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "WebLink\\TokensPay\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "^3"
+    },
+    "require-dev": {
+        "omnipay/tests": "^3",
+        "squizlabs/php_codesniffer": "^3",
+        "phpro/grumphp": "^0.14"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        }
+    },
+    "prefer-stable": true
+}
